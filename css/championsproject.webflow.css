@@ -1654,7 +1654,7 @@ h2 {
 }
 
 .link {
-  color: hsla(0, 0%, 100%, 0.1);
+  color: hsla(0, 0%, 100%, 0.2);
   text-decoration: none;
 }
 
@@ -1974,6 +1974,15 @@ h2 {
   .image-6 {
     margin-right: 0px;
   }
+  .div-block-8 {
+    width: 80%;
+  }
+  .container-7 {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 767px) {
@@ -2070,6 +2079,9 @@ h2 {
     padding-right: 0px;
     padding-bottom: 100px;
     padding-left: 0px;
+  }
+  .div-block-8 {
+    width: 80%;
   }
 }
 
@@ -2191,8 +2203,14 @@ h2 {
     font-weight: 700;
     text-align: center;
   }
+  .div-block-8 {
+    width: 100%;
+  }
   .heading-5 {
     text-align: center;
+  }
+  .column-3 {
+    margin-bottom: 10px;
   }
 }
 
